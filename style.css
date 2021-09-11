@@ -1,0 +1,176 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+body {
+    margin: 0;
+    position: relative;
+}
+
+h1, h2, h3 {
+    margin: 0;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+.navbar {
+    width: 100%;
+    min-height: 4rem;
+    background-color: #2a2a2a;
+}
+
+.navbar h1 {
+    margin-left: 4rem;
+    padding: .3em;
+    color: white;
+    font-weight: lighter;
+}
+
+.container {
+    padding: 2rem;
+    justify-content: flex-start;
+    align-items: center;
+    width: 60%;
+    margin: auto;
+}
+
+.top-section {
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 4rem;
+}
+
+.small-card {
+    justify-content: flex-start;
+    min-height: 20rem;
+    width: 30%;
+    border-radius: 1rem;
+    background: #f9faf9;
+    padding: 2rem;
+}
+
+.small-card p {
+    margin-left: 0;
+}
+
+#loan-section {
+    visibility: hidden;
+}
+
+.big-card {
+    justify-content: space-between;
+    border-radius: 1rem;
+    border: 1px solid rgb(218, 220, 219);
+    background: #f9faf9;
+    padding: 4rem;
+    width: 100%;
+}
+
+.inline {
+    display: flex;
+    flex-direction: row;
+}
+
+.section-property {
+    justify-content: space-between;
+}
+
+.section-property p{
+    font-size: 1.4rem;
+}
+
+.section-buttons {
+    justify-content: space-between;
+    margin-top: auto;
+}
+
+.btn {
+    padding: .6rem;
+    width: 47%;
+    border-radius: 0.5rem;
+    font-size: 1.3rem;
+}
+
+.btn:hover {
+    cursor: pointer;
+    filter: brightness(.9)
+}
+
+.btn-green {
+    border: 1px solid rgb(49, 150, 93);
+    background-color: rgb(94, 229, 152);
+    margin-top: 2.5rem;
+    width: 100%;
+}
+
+.btn-yellow {
+    border: 1px solid rgb(189, 189, 107);
+    background-color: rgb(252, 252, 60);
+    margin-top: .5rem;
+}
+
+.btn-blue {
+    border: 1px solid rgb(32, 82, 145);
+    background-color: rgb(50, 133, 239);
+    margin-top: .5rem;
+}
+
+.btn-purple {
+    border: 1px solid rgb(120, 50, 161);
+    background-color: rgb(177, 74, 236);
+    margin-top: 3.5rem;
+    visibility: hidden;
+}
+
+.btn-lightblue {
+    border: 1px solid rgb(90, 146, 217);
+    background-color: rgb(86, 228, 246);
+    margin-top: 3rem;
+    width: 100%;
+}
+
+.laptop-list {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: .4rem;
+    height: 2.5rem;
+    width: auto;
+    border-radius: .3rem;
+    font-size: 1.2rem;
+}
+
+.image-section {
+    width: 30%;
+}
+
+.image-section img {
+    max-width: 13rem;
+}
+
+.description-section {
+    margin-right: 2rem;
+    width: 43%;
+}
+
+.description-section h1 {
+    font-size: 2.3rem;
+}
+
+.price-section {
+    justify-content: flex-start;
+    align-items: center;
+    width: 25%;
+}
+
+.price {
+    justify-content: space-evenly;
+    align-items: center;
+    min-width: 15rem;
+}
+
+.price p {
+    font-size: 4rem;
+}

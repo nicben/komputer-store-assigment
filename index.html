@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Komputer Store</title>
+</head>
+<body>
+    <header class="navbar">
+        <h1>Komputer Store</h1>
+    </header>
+    <div class="container">
+        <div class="top-section inline">
+            <section class="small-card">
+                <div>
+                    <h2>Joe Banker</h2>
+                </div>
+                <div>
+                    <span class="section-property inline">
+                        <p>Balance</p>
+                        <p id="balance">0</p>
+                    </span>
+                    <span id ="loan-section" class="section-property inline">
+                        <p>Loan</p>
+                        <p id="outstanding-loan"></p>
+                    </span>
+                </div>
+                <div class="section-buttons inline">
+                    <button id="loan-btn" class="btn btn-green">Get loan</button>
+                </div>
+            </section>
+            <section class="small-card">
+                <div>
+                    <h2>Work</h2>
+                </div>
+                <div>
+                    <span class="section-property inline">
+                        <p>Pay</p>
+                        <p id="pay">0</p>
+                    </span>
+                </div>
+                <div class="section-buttons inline">
+                    <button id="repay-btn" class="btn btn-purple">Repay</button>
+                </div>
+                <div class="section-buttons inline">
+                    <button id="bank-btn" class="btn btn-yellow">Bank</button>
+                    <button id="work-btn" class="btn btn-blue">Work</button>
+                </div>
+            </section>
+            <section class="small-card">
+                <div>
+                    <h2>Laptops</h2>
+                    <select name="laptops" id="laptops" class="laptop-list"></select>
+                </div>
+                <h3> Features:</h3>
+                <p id="specs"> </p>
+            </section>
+        </div>
+        <div id="laptop" class="big-card inline">
+            <section class="image-section">
+                <img id="image"/>
+            </section>
+            <section class="description-section section-property">
+                <h1 id="title"></h1>
+                <p id="description"> </p>
+            </section>
+            <section class="price-section">
+                <h2 id="price"></h2>
+                <button id="buy-btn" class="btn btn-lightblue">BUY NOW</button>
+            </section>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
