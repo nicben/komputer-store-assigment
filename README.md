@@ -2,7 +2,7 @@
 
 ## Deployment:
 
-Deployed on [Github Pages](https://nicben.github.io/komputer-store-assigment/) - URL: <https://nicben.github.io/komputer-store-assigment/>
+Deployed on [Github Pages](https://nicben.github.io/komputer-store-assignment/) - URL: <https://nicben.github.io/komputer-store-assignment/>
 
 ## Source:
 
