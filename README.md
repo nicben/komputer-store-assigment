@@ -10,4 +10,4 @@ Deployed on [Github Pages](https://nicben.github.io/komputer-store-assigment/) -
 
 ## Framework
 
-![](assets/Komputer-store-framework.png)
+![](assets/Komputer-store-framework.PNG)
